@@ -11,5 +11,9 @@ while True:
         print("Отгадал!!!", number, " ", index) 
         break
     elif(a != int(number)): 
+        if(a > int(number)): 
+            print("загаданное число меньше твоего")
+        elif(a < int(number)):
+            print("загаданное число больше твоего")
         print("попробуй еще раз")
         index += 1
