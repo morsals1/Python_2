@@ -14,6 +14,6 @@ def group_characters(input_string):
 
     return result
 
-input_string = "с с с о с с и и и с к к к а "
+input_string = input()
 output = group_characters(input_string)
 print(output)
